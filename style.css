@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,300;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(255, 187, 0);
+}
+
+.wrapper{
+    width: 605px;
+    background: rgb(156, 221, 156);
+    border-radius: 20px;
+    padding: 30px 30px 25px;
+}
+
+.wrapper .content{
+    margin: 35px 0;
+}
+
+.content .quote-box{
+    display: flex;
+    justify-content: center;
+}
+
+.quote-box i{
+    font-size: 15px;
+}
+.quote-box i:first-child{
+    margin: 3px 10px 0 0;
+}
+.quote-box i:last-child{
+    display: flex;
+    margin: 0 0 3px 10px;
+    align-items: flex-end;
+}
+.quote-box .quote{
+    font-size: 20px;
+    text-align: center;
+    word-break: break-all;
+}
+
+.content .author{
+    display: flex;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+.author span:first-child{
+    margin: -7px 5px 0 0;
+    font-family: monospace;
+}
+.wrapper .buttons{
+    border-top: 1px solid rgb(18, 0, 83);
+}
+
+.buttons .features{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.features ul{
+    display: flex;
+}
+
+.features ul li{
+    list-style: none;
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    display: flex;
+    color: rgb(18, 0, 83);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid rgb(18, 0, 83);
+}
+
+.features ul li:hover{
+    color: rgb(231, 133, 133);
+    background: rgb(233, 221, 151);
+}
+
+.features button{
+    border: none;
+    outline: none;
+    color: rgb(18, 0, 83);
+    cursor: pointer;
+    font-style: 16px;
+    padding: 13px 22px;
+    border-radius: 30px;
+    background-color: rgb(104, 74, 214);
+}
